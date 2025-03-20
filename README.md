@@ -113,17 +113,18 @@ The dataset contains **2015-2018 supply chain records**, including:
 
 ## 🤖 Machine Learning Models Used
 ### **📌 Regression Models for Sales & Order Quantity Prediction**
+- 🔹 **Models Trained** : Linear Regression, Ridge, Lasso, Random Forest, XGBoost
 - 🔹 **Linear Regression** (Best for Sales, MAE: 0.0005, RMSE: 0.0014)
 - 🔹 **Decision Tree** (Best for Quantity, MAE: 0.0040, RMSE: 0.006)
 
 ### **📌 Classification Models for Fraud & Late Deliveries**
+- 🔹 **Models Trained** : Logistic Regression, Decision Tree, Random Forest, XGBoost, KNN, SVM
 - 🔹 **Random Forest** – Best for **Fraud Detection** (Recall: 98.93%, Accuracy: 98.66%)
 - 🔹 **Decision Tree** – Best for **Late Delivery Prediction** (Accuracy: 99.37%, F1 Score: 99.42%)
 
 ### **Model Improvement Techniques**
 ✔ **Cross-validation** for better generalization.
 ✔ **Feature Importance** analysis to refine prediction accuracy.
-✔ **AI-powered fraud detection** using customer & transaction patterns.
 
 ---
 
