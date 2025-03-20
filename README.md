@@ -67,6 +67,50 @@ The dataset contains **2015-2018 supply chain records**, including:
 
 ---
 
+
+
+🔄 ETL Pipeline Implementation
+
+1️⃣ Stored Cleaned Data in MongoDB
+
+The cleaned supply chain dataset was stored in a MongoDB collection (cleaned_data) for processing.
+
+2️⃣ ETL Pipeline Setup
+
+Organized the project into structured modules:
+
+3️⃣ Extract Phase (src/extract.py)
+
+Extracted relevant fields from MongoDB, ignoring _id.
+
+✅ Extracted 180,519 rows from MongoDB.
+
+4️⃣ Transform Phase (src/transform.py)
+
+Applied meaningful transformations:
+
+Shipping Delay Calculation → (Days for shipping (real) - Days for shipment (scheduled))
+
+Customer Order Frequency → Count of orders per customer.
+
+✅ Transformed 180,519 rows.
+
+5️⃣ Load Phase (src/load.py)
+
+Stored transformed data in MongoDB under transformed_supply_chain collection.
+
+✅ Loaded 180,519 records into transformed collection.
+
+6️⃣ Final ETL Pipeline (src/etl_pipeline.py)
+
+Integrated Extract → Transform → Load into a single pipeline.
+
+Ensured data isn't reprocessed multiple times.
+
+✅ Successfully executed full ETL pipeline!
+
+---
+
 ## 🤖 Machine Learning Models Used
 ### **📌 Regression Models for Sales & Order Quantity Prediction**
 - 🔹 **Linear Regression** (Best for Sales, MAE: 0.0005, RMSE: 0.0014)
