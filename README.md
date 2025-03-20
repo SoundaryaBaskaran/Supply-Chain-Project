@@ -128,6 +128,14 @@ The dataset contains **2015-2018 supply chain records**, including:
 
 ---
 
+## 🚀 Deployment
+
+- The project is deployed using Streamlit for interactive visualization.
+
+- Docker is used for containerization, ensuring a portable and consistent environment.
+
+---
+
 ## ⚙ How to Run This Project
 ### **🔧 Installation Steps**
 1️⃣ Clone the repository:
