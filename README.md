@@ -7,10 +7,10 @@ Supply Chain Management (SCM) is essential for optimizing product flow from supp
 
 ## 🎯 Problem Statement
 DataCo faces significant supply chain challenges:
+- 📉 Inaccurate Sales Predictions & Order Quantities leading to inventory issues.
 - ⏳ **Late Deliveries** causing customer dissatisfaction.
 - 💰 **Fraudulent Transactions** reducing profit margins.
-- 📉 **Inaccurate Sales Predictions** leading to inventory issues.
-
+  
 **Goal:** Optimize supply chain operations by mitigating these risks and improving efficiency.
 
 ---
