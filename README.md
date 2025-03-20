@@ -69,45 +69,45 @@ The dataset contains **2015-2018 supply chain records**, including:
 
 
 
-🔄 ETL Pipeline Implementation
+## 🔄 ETL Pipeline Implementation
 
-1️⃣ Stored Cleaned Data in MongoDB
+### 1️⃣ Stored Cleaned Data in MongoDB
 
-The cleaned supply chain dataset was stored in a MongoDB collection (cleaned_data) for processing.
+- The cleaned supply chain dataset was stored in a MongoDB collection (cleaned_data) for processing.
 
-2️⃣ ETL Pipeline Setup
+### 2️⃣ ETL Pipeline Setup
 
-Organized the project into structured modules:
+- Organized the project into structured modules:
 
-3️⃣ Extract Phase (src/extract.py)
+### 3️⃣ Extract Phase (src/extract.py)
 
-Extracted relevant fields from MongoDB, ignoring _id.
+- Extracted relevant fields from MongoDB, ignoring _id.
 
-✅ Extracted 180,519 rows from MongoDB.
+- Extracted 180,519 rows from MongoDB.
 
-4️⃣ Transform Phase (src/transform.py)
+### 4️⃣ Transform Phase (src/transform.py)
 
-Applied meaningful transformations:
+- Applied meaningful transformations:
 
-Shipping Delay Calculation → (Days for shipping (real) - Days for shipment (scheduled))
+- Shipping Delay Calculation → (Days for shipping (real) - Days for shipment (scheduled))
 
-Customer Order Frequency → Count of orders per customer.
+- Customer Order Frequency → Count of orders per customer.
 
-✅ Transformed 180,519 rows.
+- Transformed 180,519 rows.
 
-5️⃣ Load Phase (src/load.py)
+### 5️⃣ Load Phase (src/load.py)
 
-Stored transformed data in MongoDB under transformed_supply_chain collection.
+- Stored transformed data in MongoDB under transformed_supply_chain collection.
 
-✅ Loaded 180,519 records into transformed collection.
+- Loaded 180,519 records into transformed collection.
 
-6️⃣ Final ETL Pipeline (src/etl_pipeline.py)
+### 6️⃣ Final ETL Pipeline (src/etl_pipeline.py)
 
-Integrated Extract → Transform → Load into a single pipeline.
+- Integrated Extract → Transform → Load into a single pipeline.
 
-Ensured data isn't reprocessed multiple times.
+- Ensured data isn't reprocessed multiple times.
 
-✅ Successfully executed full ETL pipeline!
+- Successfully executed full ETL pipeline!
 
 ---
 
