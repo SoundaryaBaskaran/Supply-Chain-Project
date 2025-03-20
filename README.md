@@ -114,7 +114,7 @@ The dataset contains **2015-2018 supply chain records**, including:
 
 ## 📬 Contact
 🔗 **GitHub**: [Supply-Chain-Project](https://github.com/SoundaryaBaskaran/Supply-Chain-Project)  
-🔗 **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/soundaryabaskaran/)  
+🔗 **LinkedIn**: [SoundayaBaskaran](https://www.linkedin.com/in/soundaryabaskaran/)  
 
 🙌 **If you find this project useful, don’t forget to ⭐ the repository!** 🚀
 
