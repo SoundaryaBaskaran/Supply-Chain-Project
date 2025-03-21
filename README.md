@@ -1,7 +1,7 @@
 # 📦 Supply Chain Management Analysis – DataCo Dataset
 
 ## 📂 Project Presentation  
-[📄 Click here to view the Supply Chain Project PPT]("C:\Users\SOUNDARYA\Pictures\Screenshots\Screenshot 2025-03-21 124705.png")(https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FSoundaryaBaskaran%2FSupply-Chain-Project%2Frefs%2Fheads%2Fmain%2FSupply%2520Chain%2520Management%2520Analysis%2520%25E2%2580%2593%2520Dataco%2520Dataset%2520ppt.pptx&wdOrigin=BROWSELINK)
+[📄 Click here to view the Supply Chain Project PPT](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FSoundaryaBaskaran%2FSupply-Chain-Project%2Frefs%2Fheads%2Fmain%2FSupply%2520Chain%2520Management%2520Analysis%2520%25E2%2580%2593%2520Dataco%2520Dataset%2520ppt.pptx&wdOrigin=BROWSELINK)
 
 
 ## 🚀 Introduction
