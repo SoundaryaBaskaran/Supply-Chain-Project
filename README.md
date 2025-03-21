@@ -1,5 +1,9 @@
 # 📦 Supply Chain Management Analysis – DataCo Dataset
 
+## 📂 Project Presentation  
+[📄 Click here to view the Supply Chain Project PPT](PK)
+
+
 ## 🚀 Introduction
 Supply Chain Management (SCM) is essential for optimizing product flow from suppliers to customers. This project analyzes **DataCo's supply chain dataset** to identify inefficiencies, improve demand forecasting, and reduce late deliveries using **Machine Learning (ML) models**. The insights derived from this analysis help businesses make data-driven decisions and enhance operational efficiency.
 
