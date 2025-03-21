@@ -151,25 +151,22 @@ The dataset contains **2015-2018 supply chain records**, including:
    ```sh
    pip install -r requirements.txt
    ```
-📊 For Data Analysis & Model Training
-3️⃣ Run the Jupyter Notebook
-sh
-Copy
-Edit
-jupyter notebook
+### **📊 For Data Analysis & Model Training**
+3️⃣ Run the Jupyter Notebook:
+    ```sh
+    jupyter notebook
+    ```
 Open the notebook file (.ipynb) and execute the scripts step by step to analyze the data and train models.
-
-🚀 For Running the Deployed Application
-4️⃣ Run the Deployment (app.py)
-If your app.py is a Streamlit/Flask application, use one of the following:
-
-📌 If using Streamlit:
-
-sh
-Copy
-Edit
-streamlit run app.py
+### **🚀 For Running the Deployed Application**
+4️⃣ Run the Deployment (app.py):
+     ```sh
+    streamlit run app.py
+    ```
 Once the app is running, open the provided local URL in your browser to interact with the application.
+
+
+
+
 
 
 ---
